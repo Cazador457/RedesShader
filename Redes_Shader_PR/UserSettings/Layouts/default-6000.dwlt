@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 868.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Inspector
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 114
+  controlID: 37
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -594,7 +594,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Shader
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -604,21 +604,21 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets
+  - Assets/Shader
   m_LastFoldersGridSize: 96
-  m_LastProjectPath: D:\BlackHollow Studios\Pruebas\Enemy_IA_Repo\Redes_Shader_PR
+  m_LastProjectPath: D:\6 Semestre\RedesShader\Redes_Shader_PR
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 54348
+    - m_Data: 47752
     m_LastClickedID:
-      m_Data: 54348
+      m_Data: 47752
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 54348
+    - m_Data: 47444
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -650,7 +650,9 @@ MonoBehaviour:
     m_SelectedIDs: []
     m_LastClickedID:
       m_Data: 0
-    m_ExpandedIDs: []
+    m_ExpandedIDs:
+    - m_Data: 0
+    - m_Data: 47444
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -677,9 +679,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs:
-    - m_Data: -23252
-    m_LastClickedInstanceID: -23252
+    m_SelectedInstanceIDs: []
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 0
@@ -804,12 +805,16 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs:
-      - m_Data: -23252
+      m_SelectedIDs: []
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -19968
+      - m_Data: -22670
+      - m_Data: -22648
+      - m_Data: -22142
+      - m_Data: -2858
+      - m_Data: -2620
+      - m_Data: -1296
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1346,9 +1351,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: -1.0317837, y: 2.3994746, z: 27.26053}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: -1.0317837, y: 2.3994746, z: 27.26053}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1394,13 +1399,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: 0.04137499, y: 0.01648494, z: 0.00063988694, w: -0.9990497}
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: 0.04137324, y: 0.016484246, z: 0.00063985994, w: -0.9990076}
   m_Size:
-    m_Target: 10
+    m_Target: 13.927582
     speed: 2
-    m_Value: 10
+    m_Value: 13.927582
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1455,10 +1460,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 171.2
-    y: 79.200005
-    width: 992.39996
-    height: 515.6
+    x: 111.200005
+    y: 86.4
+    width: 551.6
+    height: 510
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1505,7 +1510,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1514,23 +1519,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 992.39996
-      height: 494.59998
-    m_Scale: {x: 0.5724537, y: 0.5724537}
-    m_Translation: {x: 496.19998, y: 247.29999}
+      width: 551.6
+      height: 489
+    m_Scale: {x: 0.35911456, y: 0.35911456}
+    m_Translation: {x: 275.8, y: 244.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -866.795
-      y: -432
-      width: 1733.59
-      height: 864
+      x: -768
+      y: -680.84125
+      width: 1536
+      height: 1361.6825
     m_MinimalGUI: 1
-  m_defaultScale: 0.5724537
-  m_LastWindowPixelSize: {x: 1240.5, y: 644.5}
+  m_defaultScale: 0.35911456
+  m_LastWindowPixelSize: {x: 689.5, y: 637.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
